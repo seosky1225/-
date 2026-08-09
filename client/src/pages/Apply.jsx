@@ -23,7 +23,7 @@ function Apply() {
     project,
   };
 
-  const response = await fetch("https://sisteam-server.onrender.com", {
+  const response = await fetch("https://sisteam-server.onrender.com/api/apply", {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
