@@ -40,7 +40,7 @@ function Home() {
         <h1>
           CREATE.<br />
           BUILD.<br />
-          INNOVATE.
+          CHANGE.
         </h1>
 
         <h3>
