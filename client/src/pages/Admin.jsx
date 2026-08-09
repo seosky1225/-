@@ -8,7 +8,7 @@ function Admin() {
   const loadApplications = async () => {
     try {
       const response = await fetch(
-        "https://sisteam-server.onrender.com"
+        "https://sisteam-server.onrender.com/api/applications"
       );
 
       if (!response.ok) {
@@ -35,7 +35,7 @@ function Admin() {
 
     try {
       const response = await fetch(
-        `https://sisteam-server.onrender.com${index}`,
+        `https://sisteam-server.onrender.com/api/applications/${index}`,
         {
           method: "DELETE",
         }
